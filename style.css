@@ -1,0 +1,339 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1e2326; 
+}
+
+.inicio, .sobremi, .skills, .curriculum, .portfolio {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+.contenedor-header {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    text-align: center; 
+}
+
+.contenedor-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header ul {
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover {
+    color: #ff0000;
+}
+
+.nav-responsive {
+    background-color: #000000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+}
+
+
+
+.inicio {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+.inicio .contenedor-img {
+    margin-bottom: 20px;
+}
+
+.inicio h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 20px 0 10px;
+}
+
+.inicio h2 {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.inicio .redes {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+}
+
+.inicio .redes a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.inicio .redes a:hover {
+    color: #b61c1c;
+}
+
+
+.inicio .card {
+    background-color: #1e2326;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 350px; 
+    width: 100%;
+}
+
+.inicio .card img {
+    border-radius: 50%;
+    border: 4px solid #b61c1c;
+    width: 150px;
+    height: 190px;
+    object-fit: cover;
+    margin-bottom: 0px;
+    
+}
+
+
+
+section {
+    padding: 60px 20px;
+    background: #1e2326; 
+}
+
+section h2 {
+    font-size: 28px;
+    color: #fff7f7;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section p, section ul {
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+section .col {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li strong {
+    font-weight: bold;
+}
+
+.sobremi {
+    background-color: #1e2326;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sobremi h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.sobremi p {
+    font-size: 18px;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.sobremi .col {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.skills {
+    background-color: #1e2326;
+    padding: 60px 20px;
+}
+
+.skills h2 {
+    font-size: 28px;
+    color: #fffefe;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.skills ul li strong {
+    color: #ffffff;
+}
+.skills .skill {
+    margin-bottom: 20px;
+}
+
+.skills .skill span {
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.skills .barra-skill {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    position: relative;
+}
+
+.skills .progreso {
+    background-color: #ff0000;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.curriculum {
+    background-color: #1e2326;
+    padding: 60px 20px;
+}
+
+.curriculum h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.curriculum .col {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: left;
+}
+
+.curriculum .col h3 {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.curriculum .col p, .curriculum .col ul {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.portfolio .galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio .proyecto {
+    position: relative;
+    margin: 20px;
+}
+
+.portfolio .proyecto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio .proyecto:hover img {
+    transform: scale(1.0);
+}
+
+.portfolio .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    color: #fff;
+}
+
+.portfolio .proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.portfolio .overlay a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.portfolio .overlay a:hover {
+    color: #1cb698; 
+}
+
+.portfolio .overlay a:visited {
+    color: #ffffff; 
+}
+
+
